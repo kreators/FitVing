@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  FitVing
+
+  Created by define on 31/10/2016.
+  Copyright © 2016 SoBene, LLC. All rights reserved.
+*/
+
+"TOTAL BALANCE" = "총 저축금액";
+"Mon" = "월";
+"Tue" = "화";
+"Wed" = "수";
+"Thurs" = "목";
+"Fri" = "금";
+"Sat" = "토";
+"Sun" = "일";
+"FRIENDS' STATUS" = "친구들 보기";
+"Home" = "홈";
+"My Account" = "My Account";
+"History" = "히스토리";
+"Invite Friends" = "친구 초대";
+"Help Center" = "Help Center";
+"Settings" = "Settings";
+"TODAY" = "오늘";
+"TOTAL" = "TOTAL";
+"LAST 30 DAYS" = "지난 30일";
+"TODAY'S BALANCE" = "오늘 저축금액";
+"INTEREST EARNED (APY)" = "연이자 (%)";
+"TOTAL BALANCE" = "총 저축금액";
+"30-DAY BALANCE" = "지난 30일 저축금액";
+"30-DAY INTEREST EARNED (APY)" = "지난 30일 이자 (%)";
+"About Tortoise" = "서비스 소개";
+"Contact" = "고객센터";
+"Information" = "정보";
+"Send Feedback" = "피드백 보내기";
+"User Agreement" = "고객 동의";
+"Privacy Policy" = "개인 보안 정책";
+"Set your daily step" = "하루 목표 걸음";
+"Set your daily deposit" = "하루 저축금액";
+"Sync wearable devices" = "웨어러블 기기 연동";
+"Withdraw" = "인출";
+"Transfer your money" = "송금";
+"Edit Profile" = "프로필 수정";
+"Change phone number" = "번호 변경";
+"Banks and Cards" = "은행 / 카드";
+"Alerts & Notification" = "알림";
+"Security" = "보안";
+"Passcode Lock" = "패스워드";
+"Remembered Devices" = "기존 기기 연결";
+"Rate Tortoise" = "평가";
+"Sign Out" = "로그아웃";
+
+
+

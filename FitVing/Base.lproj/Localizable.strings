@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  FitVing
+
+  Created by define on 31/10/2016.
+  Copyright © 2016 SoBene, LLC. All rights reserved.
+*/
+
+"TOTAL BALANCE" = "TOTAL BALANCE";
+"Mon" = "Mon";
+"Tue" = "Tue";
+"Wed" = "Wed";
+"Thurs" = "Thurs";
+"Fri" = "Fri";
+"Sat" = "Sat";
+"Sun" = "Sun";
+"FRIENDS' STATUS" = "FRIENDS' STATUS";
+"Home" = "Home";
+"My Account" = "My Account";
+"History" = "History";
+"Invite Friends" = "Invite Friends";
+"Help Center" = "Help Center";
+"Settings" = "Settings";
+"TODAY" = "TODAY";
+"TOTAL" = "TOTAL";
+"LAST 30 DAYS" = "LAST 30 DAYS";
+"TODAY'S BALANCE" = "TODAY'S BALANCE";
+"INTEREST EARNED (APY)" = "INTEREST EARNED (APY)";
+"TOTAL BALANCE" = "TOTAL BALANCE";
+"30-DAY BALANCE" = "30-DAY BALANCE";
+"30-DAY INTEREST EARNED (APY)" = "30-DAY INTEREST EARNED (APY)";
+"About Tortoise" = "About Tortoise";
+"Contact" = "Contact";
+"Information" = "Information";
+"Send Feedback" = "Send Feedback";
+"User Agreement" = "User Agreement";
+"Privacy Policy" = "Privacy Policy";
+"Set your daily step" = "Set your daily step";
+"Set your daily deposit" = "Set your daily deposit";
+"Sync wearable devices" = "Sync wearable devices";
+"Withdraw" = "Withdraw";
+"Transfer your money" = "Transfer your money";
+"Edit Profile" = "Edit Profile";
+"Change phone number" = "Change phone number";
+"Banks and Cards" = "Banks and Cards";
+"Alerts & Notification" = "Alerts & Notification";
+"Security" = "Security";
+"Passcode Lock" = "Passcode Lock";
+"Remembered Devices" = "Remembered Devices";
+"Rate Tortoise" = "Rate Tortoise";
+"Sign Out" = "Sign Out";
+

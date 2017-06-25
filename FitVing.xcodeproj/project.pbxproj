@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B03B3ED1DC6CEBB003F50C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B03B3EF1DC6CEBB003F50C0 /* Localizable.strings */; };
+		4B122B351BA7936C00EF6F1C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B122B341BA7936C00EF6F1C /* CoreLocation.framework */; };
+		4B1254F21DD298730090CB2B /* TransferInputAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1254F11DD298730090CB2B /* TransferInputAmountViewController.swift */; };
+		4B15849E1DD1AA5E006DBA65 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15849D1DD1AA5E006DBA65 /* MyAccountViewController.swift */; };
+		4B1B9E841E4061D700BFA02B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B9E831E4061D700BFA02B /* IntroViewController.swift */; };
+		4B1FBD661BB5A1A100AFCC53 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1FBD641BB5A1A100AFCC53 /* Fabric.framework */; };
+		4B1FBD671BB5A1A100AFCC53 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1FBD651BB5A1A100AFCC53 /* Crashlytics.framework */; };
+		4B1FBE741E5B405600773917 /* BankListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1FBE731E5B405600773917 /* BankListViewController.swift */; };
+		4B237C121C8FC6FD001D4296 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B237C111C8FC6FD001D4296 /* ViewController1.swift */; };
+		4B261AE01EEA44320095D589 /* FitVing+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B261ADF1EEA44320095D589 /* FitVing+History.swift */; };
+		4B261AE21EEA57190095D589 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B261AE11EEA57190095D589 /* DoubleExtension.swift */; };
+		4B2803BC1E5B05FD007AA4DD /* CreateAccountStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2803BB1E5B05FD007AA4DD /* CreateAccountStep1ViewController.swift */; };
+		4B2803BE1E5B07BC007AA4DD /* BasicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2803BD1E5B07BC007AA4DD /* BasicInfoViewController.swift */; };
+		4B2803C01E5B1BAA007AA4DD /* CreateAccountStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2803BF1E5B1BAA007AA4DD /* CreateAccountStep2ViewController.swift */; };
+		4B2803C21E5B1ECC007AA4DD /* DailyStepTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2803C11E5B1ECC007AA4DD /* DailyStepTargetViewController.swift */; };
+		4B29BBD81CC0AEB6003B8771 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29BBD71CC0AEB6003B8771 /* HelpViewController.swift */; };
+		4B29BBDB1CC0B00B003B8771 /* HelpViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29BBDA1CC0B00B003B8771 /* HelpViewController+UITableView.swift */; };
+		4B2A8DBD1BA562B500F25F49 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A8DBA1BA562B500F25F49 /* KYDrawerController.swift */; };
+		4B2A8DBE1BA562B500F25F49 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A8DBB1BA562B500F25F49 /* KYEmbedDrawerControllerSegue.swift */; };
+		4B2A8DBF1BA562B500F25F49 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A8DBC1BA562B500F25F49 /* KYEmbedMainControllerSegue.swift */; };
+		4B2A91C41BF8A93B00097A64 /* FitVing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A91C31BF8A93B00097A64 /* FitVing.swift */; };
+		4B3604801BCB28B4003B9F56 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B36047F1BCB28B4003B9F56 /* CountingLabel.swift */; };
+		4B3FC6171E76416200CD4EAA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FC6161E76416200CD4EAA /* Models.swift */; };
+		4B4170131DF67352008425E5 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4170121DF67352008425E5 /* PrivacyPolicyViewController.swift */; };
+		4B4E4D621EBD5FD2003E74E7 /* ONLINETERMSOFUSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B4E4D611EBD5FD2003E74E7 /* ONLINETERMSOFUSE.pdf */; };
+		4B515A7E1BC149ED0007E9CE /* FriendsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B515A7D1BC149ED0007E9CE /* FriendsButton.swift */; };
+		4B515A801BC150C00007E9CE /* WeeklyStepsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B515A7F1BC150C00007E9CE /* WeeklyStepsButton.swift */; };
+		4B566C921CA69A84007F16BD /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B566C911CA69A84007F16BD /* DepositViewController.swift */; };
+		4B6268431C86769500D802CF /* StepTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6268421C86769500D802CF /* StepTargetViewController.swift */; };
+		4B6316261ED68C44001523CC /* TotalSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6316251ED68C44001523CC /* TotalSummaryView.swift */; };
+		4B68D3C21BC2384D00AFE4E8 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68D3C11BC2384D00AFE4E8 /* FriendsView.swift */; };
+		4B68D3C41BC23A4600AFE4E8 /* FriendsTurtleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68D3C31BC23A4600AFE4E8 /* FriendsTurtleView.swift */; };
+		4B6CC8571CBC84B200C1F78E /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CC8561CBC84B200C1F78E /* SegmentView.swift */; };
+		4B6CC8591CBC94B100C1F78E /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CC8581CBC94B100C1F78E /* LineChart.swift */; };
+		4B71AC881C8511EE00BACBE3 /* FriendsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B71AC861C8511EE00BACBE3 /* FriendsViewCell.swift */; };
+		4B71AC891C8511EE00BACBE3 /* FriendsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B71AC871C8511EE00BACBE3 /* FriendsViewCell.xib */; };
+		4B7851E31BA51CA9003DFABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7851E21BA51CA9003DFABB /* AppDelegate.swift */; };
+		4B7851E51BA51CA9003DFABB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7851E41BA51CA9003DFABB /* HomeViewController.swift */; };
+		4B7851E81BA51CA9003DFABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7851E61BA51CA9003DFABB /* Main.storyboard */; };
+		4B7851EA1BA51CA9003DFABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7851E91BA51CA9003DFABB /* Assets.xcassets */; };
+		4B7B50B41BA52FE400EDD478 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B50B31BA52FE400EDD478 /* MenuViewController.swift */; };
+		4B7B8CA61BA59E73007A1637 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B8CA51BA59E73007A1637 /* HistoryViewController.swift */; };
+		4B84492F1EC9583B003FE787 /* BankAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84492E1EC9583B003FE787 /* BankAccountViewController.swift */; };
+		4B857CE51E5C6DDC002D699C /* BankIDRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B857CE41E5C6DDC002D699C /* BankIDRegisterViewController.swift */; };
+		4B86F47D1D892E020003B7B4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86F47C1D892E020003B7B4 /* FBSDKCoreKit.framework */; };
+		4B86F47F1D892E0A0003B7B4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86F47E1D892E0A0003B7B4 /* FBSDKLoginKit.framework */; };
+		4B86F4811D892E140003B7B4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86F4801D892E140003B7B4 /* FBSDKShareKit.framework */; };
+		4B8C93691E6A4A3300B5FB65 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C93681E6A4A3300B5FB65 /* ContactViewController.swift */; };
+		4B8C936B1E6A4B5100B5FB65 /* UserAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C936A1E6A4B5100B5FB65 /* UserAgreementViewController.swift */; };
+		4B9193C21DD311B2001E7404 /* TransferToBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9193C11DD311B2001E7404 /* TransferToBankViewController.swift */; };
+		4B972E8A1E5F0C6C00F2C3BB /* Terms.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B972E891E5F0C6C00F2C3BB /* Terms.pdf */; };
+		4B9889741E679F5E008B282F /* DailyDepositInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9889731E679F5E008B282F /* DailyDepositInformationViewController.swift */; };
+		4BA2838A1E7780090071B84E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA283891E7780090071B84E /* DateExtension.swift */; };
+		4BACF2881BC898CC005A9A56 /* ManualDepositTurtleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF2871BC898CC005A9A56 /* ManualDepositTurtleView.swift */; };
+		4BAEC5081BB4FF26004B59DD /* TurtleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEC5071BB4FF26004B59DD /* TurtleView.swift */; };
+		4BAEC50A1BB50111004B59DD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEC5091BB50111004B59DD /* UIColorExtension.swift */; };
+		4BAEC50C1BB508DB004B59DD /* TopAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEC50B1BB508DB004B59DD /* TopAlignedLabel.swift */; };
+		4BB1973B1E5B2FEE004118EF /* DailyDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1973A1E5B2FEE004118EF /* DailyDepositViewController.swift */; };
+		4BB1973D1E5B31E6004118EF /* CreateAccountStep3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1973C1E5B31E6004118EF /* CreateAccountStep3ViewController.swift */; };
+		4BC0A5161D8A5233005ABE92 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0A5151D8A5233005ABE92 /* Bolts.framework */; };
+		4BC74DCA1E40357D00640EFE /* VideoIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC74DC91E40357D00640EFE /* VideoIntroViewController.swift */; };
+		4BC832DE1EE9201300142319 /* TodaySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC832DD1EE9201300142319 /* TodaySummaryView.swift */; };
+		4BC8C1741CBF6EAA00494E8C /* SyncWearableDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8C1731CBF6EAA00494E8C /* SyncWearableDevicesViewController.swift */; };
+		4BCBC7171EAD8B93009FED5F /* TortoiseIntro.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4BCBC7161EAD8B93009FED5F /* TortoiseIntro.mov */; };
+		4BCC35CA1CA96CD200D2EF13 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCC35C91CA96CD200D2EF13 /* SettingsViewController.swift */; };
+		4BCC35CC1CA96E8900D2EF13 /* SettingsViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCC35CB1CA96E8900D2EF13 /* SettingsViewController+UITableView.swift */; };
+		4BDA6C961BC49F6E00518DA3 /* WeeklyStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA6C951BC49F6E00518DA3 /* WeeklyStepsView.swift */; };
+		4BDB126B1ECAD1900036D3E5 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB126A1ECAD1900036D3E5 /* Alertable.swift */; };
+		4BE2777C1DF66A3B00F62BC6 /* AboutTortoiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2777B1DF66A3B00F62BC6 /* AboutTortoiseViewController.swift */; };
+		4BE2CEF11BC7920100863D98 /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2CEF01BC7920100863D98 /* IconCell.swift */; };
+		4BE311C61BC7513600F7CCD2 /* ManualDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE311C51BC7513600F7CCD2 /* ManualDepositViewController.swift */; };
+		4BEC5CEA1CB8A9D00097DD24 /* InviteFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC5CE91CB8A9D00097DD24 /* InviteFriendsViewController.swift */; };
+		4BED88251BB3AF32004460E9 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED88241BB3AF32004460E9 /* HealthManager.swift */; };
+		4BED88271BB3B7A5004460E9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BED88261BB3B7A5004460E9 /* HealthKit.framework */; };
+		4BEE565F1E5A78D000194053 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE565E1E5A78D000194053 /* SignupViewController.swift */; };
+		4BF3AEF71E5A91170016E8ED /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3AEF61E5A91170016E8ED /* SigninViewController.swift */; };
+		4BF3AEF91E5AAC790016E8ED /* CustomerAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3AEF81E5AAC790016E8ED /* CustomerAgreementViewController.swift */; };
+		4BF80E261BAE6F32004E2D5F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF80E251BAE6F32004E2D5F /* UIImageExtension.swift */; };
+		4BFBF7DA1BDE12800038CFCC /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFBF7D91BDE12800038CFCC /* InformationViewController.swift */; };
+		4BFD84071BC77E4200A34355 /* KeyPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD84061BC77E4200A34355 /* KeyPadViewController.swift */; };
+		4BFD84091BC78BA300A34355 /* PreFilledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD84081BC78BA300A34355 /* PreFilledViewController.swift */; };
+		AD0EBC9F4CC454EED65509EA /* Pods_FitVing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E528BA31F279A8B0435508 /* Pods_FitVing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		196264AF725378314768884A /* Pods-FitVing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitVing.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitVing/Pods-FitVing.release.xcconfig"; sourceTree = "<group>"; };
+		4B03B3EE1DC6CEBB003F50C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B03B3F01DC6CEE9003F50C0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B122B341BA7936C00EF6F1C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4B1254F11DD298730090CB2B /* TransferInputAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferInputAmountViewController.swift; sourceTree = "<group>"; };
+		4B15849D1DD1AA5E006DBA65 /* MyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		4B1B9E831E4061D700BFA02B /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		4B1FBD641BB5A1A100AFCC53 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		4B1FBD651BB5A1A100AFCC53 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		4B1FBE731E5B405600773917 /* BankListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankListViewController.swift; sourceTree = "<group>"; };
+		4B237C111C8FC6FD001D4296 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		4B261ADF1EEA44320095D589 /* FitVing+History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FitVing+History.swift"; sourceTree = "<group>"; };
+		4B261AE11EEA57190095D589 /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		4B2803BB1E5B05FD007AA4DD /* CreateAccountStep1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStep1ViewController.swift; sourceTree = "<group>"; };
+		4B2803BD1E5B07BC007AA4DD /* BasicInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoViewController.swift; sourceTree = "<group>"; };
+		4B2803BF1E5B1BAA007AA4DD /* CreateAccountStep2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStep2ViewController.swift; sourceTree = "<group>"; };
+		4B2803C11E5B1ECC007AA4DD /* DailyStepTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyStepTargetViewController.swift; sourceTree = "<group>"; };
+		4B29BBD71CC0AEB6003B8771 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		4B29BBDA1CC0B00B003B8771 /* HelpViewController+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HelpViewController+UITableView.swift"; sourceTree = "<group>"; };
+		4B2A8DBA1BA562B500F25F49 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		4B2A8DBB1BA562B500F25F49 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		4B2A8DBC1BA562B500F25F49 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		4B2A91C31BF8A93B00097A64 /* FitVing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitVing.swift; sourceTree = "<group>"; };
+		4B36047F1BCB28B4003B9F56 /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		4B3FC6161E76416200CD4EAA /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4B4170121DF67352008425E5 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		4B4E4D611EBD5FD2003E74E7 /* ONLINETERMSOFUSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ONLINETERMSOFUSE.pdf; sourceTree = "<group>"; };
+		4B515A7D1BC149ED0007E9CE /* FriendsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsButton.swift; sourceTree = "<group>"; };
+		4B515A7F1BC150C00007E9CE /* WeeklyStepsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyStepsButton.swift; sourceTree = "<group>"; };
+		4B566C911CA69A84007F16BD /* DepositViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		4B6268421C86769500D802CF /* StepTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTargetViewController.swift; sourceTree = "<group>"; };
+		4B6316251ED68C44001523CC /* TotalSummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalSummaryView.swift; sourceTree = "<group>"; };
+		4B68D3C11BC2384D00AFE4E8 /* FriendsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		4B68D3C31BC23A4600AFE4E8 /* FriendsTurtleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTurtleView.swift; sourceTree = "<group>"; };
+		4B6CC8561CBC84B200C1F78E /* SegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		4B6CC8581CBC94B100C1F78E /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		4B71AC861C8511EE00BACBE3 /* FriendsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewCell.swift; sourceTree = "<group>"; };
+		4B71AC871C8511EE00BACBE3 /* FriendsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsViewCell.xib; sourceTree = "<group>"; };
+		4B7851DF1BA51CA9003DFABB /* FitVing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitVing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7851E21BA51CA9003DFABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B7851E41BA51CA9003DFABB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B7851E71BA51CA9003DFABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B7851E91BA51CA9003DFABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B7851EE1BA51CA9003DFABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7B50B31BA52FE400EDD478 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4B7B8CA51BA59E73007A1637 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		4B84492E1EC9583B003FE787 /* BankAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountViewController.swift; sourceTree = "<group>"; };
+		4B857CE41E5C6DDC002D699C /* BankIDRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankIDRegisterViewController.swift; sourceTree = "<group>"; };
+		4B86F47C1D892E020003B7B4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4B86F47E1D892E0A0003B7B4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4B86F4801D892E140003B7B4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		4B8C83D61BA5ACB800216E3C /* FitVing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitVing-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B8C93681E6A4A3300B5FB65 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4B8C936A1E6A4B5100B5FB65 /* UserAgreementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgreementViewController.swift; sourceTree = "<group>"; };
+		4B9193C11DD311B2001E7404 /* TransferToBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferToBankViewController.swift; sourceTree = "<group>"; };
+		4B972E891E5F0C6C00F2C3BB /* Terms.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Terms.pdf; sourceTree = "<group>"; };
+		4B9889731E679F5E008B282F /* DailyDepositInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyDepositInformationViewController.swift; sourceTree = "<group>"; };
+		4BA283891E7780090071B84E /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		4BACF2871BC898CC005A9A56 /* ManualDepositTurtleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualDepositTurtleView.swift; sourceTree = "<group>"; };
+		4BAEC5071BB4FF26004B59DD /* TurtleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurtleView.swift; sourceTree = "<group>"; };
+		4BAEC5091BB50111004B59DD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4BAEC50B1BB508DB004B59DD /* TopAlignedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopAlignedLabel.swift; sourceTree = "<group>"; };
+		4BB1973A1E5B2FEE004118EF /* DailyDepositViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyDepositViewController.swift; sourceTree = "<group>"; };
+		4BB1973C1E5B31E6004118EF /* CreateAccountStep3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStep3ViewController.swift; sourceTree = "<group>"; };
+		4BC0A5151D8A5233005ABE92 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4BC74DC91E40357D00640EFE /* VideoIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoIntroViewController.swift; sourceTree = "<group>"; };
+		4BC832DD1EE9201300142319 /* TodaySummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaySummaryView.swift; sourceTree = "<group>"; };
+		4BC8C1731CBF6EAA00494E8C /* SyncWearableDevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncWearableDevicesViewController.swift; sourceTree = "<group>"; };
+		4BCBC7161EAD8B93009FED5F /* TortoiseIntro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TortoiseIntro.mov; sourceTree = "<group>"; };
+		4BCC35C91CA96CD200D2EF13 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4BCC35CB1CA96E8900D2EF13 /* SettingsViewController+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+UITableView.swift"; sourceTree = "<group>"; };
+		4BDA6C951BC49F6E00518DA3 /* WeeklyStepsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyStepsView.swift; sourceTree = "<group>"; };
+		4BDB126A1ECAD1900036D3E5 /* Alertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		4BE2777B1DF66A3B00F62BC6 /* AboutTortoiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTortoiseViewController.swift; sourceTree = "<group>"; };
+		4BE2CEF01BC7920100863D98 /* IconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		4BE311C51BC7513600F7CCD2 /* ManualDepositViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualDepositViewController.swift; sourceTree = "<group>"; };
+		4BEC5CE91CB8A9D00097DD24 /* InviteFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsViewController.swift; sourceTree = "<group>"; };
+		4BED88241BB3AF32004460E9 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		4BED88261BB3B7A5004460E9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4BED88281BB3B7A5004460E9 /* FitVing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FitVing.entitlements; sourceTree = "<group>"; };
+		4BEE565E1E5A78D000194053 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		4BF3AEF61E5A91170016E8ED /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		4BF3AEF81E5AAC790016E8ED /* CustomerAgreementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerAgreementViewController.swift; sourceTree = "<group>"; };
+		4BF80E251BAE6F32004E2D5F /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		4BFBF7D91BDE12800038CFCC /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		4BFD84061BC77E4200A34355 /* KeyPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPadViewController.swift; sourceTree = "<group>"; };
+		4BFD84081BC78BA300A34355 /* PreFilledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreFilledViewController.swift; sourceTree = "<group>"; };
+		829B9DC305B9A36D7986AF91 /* Pods-FitVing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitVing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitVing/Pods-FitVing.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E528BA31F279A8B0435508 /* Pods_FitVing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitVing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F912DC106E8A7F2562922348 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B7851DC1BA51CA9003DFABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B86F4811D892E140003B7B4 /* FBSDKShareKit.framework in Frameworks */,
+				4BED88271BB3B7A5004460E9 /* HealthKit.framework in Frameworks */,
+				4B86F47D1D892E020003B7B4 /* FBSDKCoreKit.framework in Frameworks */,
+				4B1FBD671BB5A1A100AFCC53 /* Crashlytics.framework in Frameworks */,
+				4B122B351BA7936C00EF6F1C /* CoreLocation.framework in Frameworks */,
+				4B86F47F1D892E0A0003B7B4 /* FBSDKLoginKit.framework in Frameworks */,
+				4BC0A5161D8A5233005ABE92 /* Bolts.framework in Frameworks */,
+				4B1FBD661BB5A1A100AFCC53 /* Fabric.framework in Frameworks */,
+				AD0EBC9F4CC454EED65509EA /* Pods_FitVing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D784E051CD6A265D8AFCE80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BED88261BB3B7A5004460E9 /* HealthKit.framework */,
+				4B122B341BA7936C00EF6F1C /* CoreLocation.framework */,
+				F912DC106E8A7F2562922348 /* Pods.framework */,
+				B0E528BA31F279A8B0435508 /* Pods_FitVing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B13BB0E1E5DEED7003A6C2F /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				4B1FBE731E5B405600773917 /* BankListViewController.swift */,
+				4B857CE41E5C6DDC002D699C /* BankIDRegisterViewController.swift */,
+				4B84492E1EC9583B003FE787 /* BankAccountViewController.swift */,
+			);
+			name = Bank;
+			sourceTree = "<group>";
+		};
+		4B1FBE721E5B3D9600773917 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				4BC74DC91E40357D00640EFE /* VideoIntroViewController.swift */,
+				4B1B9E831E4061D700BFA02B /* IntroViewController.swift */,
+				4BEE565E1E5A78D000194053 /* SignupViewController.swift */,
+				4BF3AEF61E5A91170016E8ED /* SigninViewController.swift */,
+				4BF3AEF81E5AAC790016E8ED /* CustomerAgreementViewController.swift */,
+				4B2803BB1E5B05FD007AA4DD /* CreateAccountStep1ViewController.swift */,
+				4B2803BD1E5B07BC007AA4DD /* BasicInfoViewController.swift */,
+				4B2803BF1E5B1BAA007AA4DD /* CreateAccountStep2ViewController.swift */,
+				4B2803C11E5B1ECC007AA4DD /* DailyStepTargetViewController.swift */,
+				4BB1973A1E5B2FEE004118EF /* DailyDepositViewController.swift */,
+				4B9889731E679F5E008B282F /* DailyDepositInformationViewController.swift */,
+				4BB1973C1E5B31E6004118EF /* CreateAccountStep3ViewController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		4B29BBD61CC0AE98003B8771 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4BCC35C91CA96CD200D2EF13 /* SettingsViewController.swift */,
+				4BCC35CB1CA96E8900D2EF13 /* SettingsViewController+UITableView.swift */,
+				4BC8C1731CBF6EAA00494E8C /* SyncWearableDevicesViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4B29BBDC1CC0B1F9003B8771 /* Help Centers */ = {
+			isa = PBXGroup;
+			children = (
+				4B29BBD71CC0AEB6003B8771 /* HelpViewController.swift */,
+				4B29BBDA1CC0B00B003B8771 /* HelpViewController+UITableView.swift */,
+				4BE2777B1DF66A3B00F62BC6 /* AboutTortoiseViewController.swift */,
+				4B4170121DF67352008425E5 /* PrivacyPolicyViewController.swift */,
+				4B8C93681E6A4A3300B5FB65 /* ContactViewController.swift */,
+				4B8C936A1E6A4B5100B5FB65 /* UserAgreementViewController.swift */,
+			);
+			name = "Help Centers";
+			sourceTree = "<group>";
+		};
+		4B2A8DB91BA562B500F25F49 /* DrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				4B2A8DBA1BA562B500F25F49 /* KYDrawerController.swift */,
+				4B2A8DBB1BA562B500F25F49 /* KYEmbedDrawerControllerSegue.swift */,
+				4B2A8DBC1BA562B500F25F49 /* KYEmbedMainControllerSegue.swift */,
+			);
+			path = DrawerController;
+			sourceTree = "<group>";
+		};
+		4B5A9E2A1BCF46AB00A5B5D6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4B7851E41BA51CA9003DFABB /* HomeViewController.swift */,
+				4BAEC5071BB4FF26004B59DD /* TurtleView.swift */,
+				4B515A7D1BC149ED0007E9CE /* FriendsButton.swift */,
+				4B515A7F1BC150C00007E9CE /* WeeklyStepsButton.swift */,
+				4B68D3C11BC2384D00AFE4E8 /* FriendsView.swift */,
+				4B71AC861C8511EE00BACBE3 /* FriendsViewCell.swift */,
+				4B71AC871C8511EE00BACBE3 /* FriendsViewCell.xib */,
+				4B68D3C31BC23A4600AFE4E8 /* FriendsTurtleView.swift */,
+				4BDA6C951BC49F6E00518DA3 /* WeeklyStepsView.swift */,
+				4BFBF7D91BDE12800038CFCC /* InformationViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		4B5B30541DD2868800B899C5 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				4B15849D1DD1AA5E006DBA65 /* MyAccountViewController.swift */,
+				4B1254F11DD298730090CB2B /* TransferInputAmountViewController.swift */,
+				4B9193C11DD311B2001E7404 /* TransferToBankViewController.swift */,
+			);
+			name = MyAccount;
+			sourceTree = "<group>";
+		};
+		4B6CC85A1CBC968600C1F78E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				4B7B8CA51BA59E73007A1637 /* HistoryViewController.swift */,
+				4B6CC8561CBC84B200C1F78E /* SegmentView.swift */,
+				4B6CC8581CBC94B100C1F78E /* LineChart.swift */,
+				4BC832DD1EE9201300142319 /* TodaySummaryView.swift */,
+				4B6316251ED68C44001523CC /* TotalSummaryView.swift */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		4B7851D61BA51CA9003DFABB = {
+			isa = PBXGroup;
+			children = (
+				4B1FBD641BB5A1A100AFCC53 /* Fabric.framework */,
+				4B1FBD651BB5A1A100AFCC53 /* Crashlytics.framework */,
+				4B86F47C1D892E020003B7B4 /* FBSDKCoreKit.framework */,
+				4B86F47E1D892E0A0003B7B4 /* FBSDKLoginKit.framework */,
+				4B86F4801D892E140003B7B4 /* FBSDKShareKit.framework */,
+				4BC0A5151D8A5233005ABE92 /* Bolts.framework */,
+				4B7851E11BA51CA9003DFABB /* FitVing */,
+				4B7851E01BA51CA9003DFABB /* Products */,
+				3D784E051CD6A265D8AFCE80 /* Frameworks */,
+				C531B85F14B0D52FA4BE19C7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4B7851E01BA51CA9003DFABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B7851DF1BA51CA9003DFABB /* FitVing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B7851E11BA51CA9003DFABB /* FitVing */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FC6161E76416200CD4EAA /* Models.swift */,
+				4BED88281BB3B7A5004460E9 /* FitVing.entitlements */,
+				4B7851E21BA51CA9003DFABB /* AppDelegate.swift */,
+				4B13BB0E1E5DEED7003A6C2F /* Bank */,
+				4B1FBE721E5B3D9600773917 /* Register */,
+				4B5A9E2A1BCF46AB00A5B5D6 /* Home */,
+				4BACF2861BC898A4005A9A56 /* ManualDeposit */,
+				4B6268421C86769500D802CF /* StepTargetViewController.swift */,
+				4BED88241BB3AF32004460E9 /* HealthManager.swift */,
+				4B7B50B31BA52FE400EDD478 /* MenuViewController.swift */,
+				4BEC5CE91CB8A9D00097DD24 /* InviteFriendsViewController.swift */,
+				4B5B30541DD2868800B899C5 /* MyAccount */,
+				4B6CC85A1CBC968600C1F78E /* History */,
+				4B29BBD61CC0AE98003B8771 /* Settings */,
+				4B29BBDC1CC0B1F9003B8771 /* Help Centers */,
+				4B237C111C8FC6FD001D4296 /* ViewController1.swift */,
+				4B2A91C31BF8A93B00097A64 /* FitVing.swift */,
+				4B261ADF1EEA44320095D589 /* FitVing+History.swift */,
+				4BDB126A1ECAD1900036D3E5 /* Alertable.swift */,
+				4B7851E61BA51CA9003DFABB /* Main.storyboard */,
+				4BE311C41BC7505900F7CCD2 /* Customized */,
+				4B2A8DB91BA562B500F25F49 /* DrawerController */,
+				4B7851E91BA51CA9003DFABB /* Assets.xcassets */,
+				4B7851EE1BA51CA9003DFABB /* Info.plist */,
+				4B8C83D61BA5ACB800216E3C /* FitVing-Bridging-Header.h */,
+				4B972E891E5F0C6C00F2C3BB /* Terms.pdf */,
+				4B4E4D611EBD5FD2003E74E7 /* ONLINETERMSOFUSE.pdf */,
+				4BCBC7161EAD8B93009FED5F /* TortoiseIntro.mov */,
+				4B03B3EF1DC6CEBB003F50C0 /* Localizable.strings */,
+			);
+			path = FitVing;
+			sourceTree = "<group>";
+		};
+		4BACF2861BC898A4005A9A56 /* ManualDeposit */ = {
+			isa = PBXGroup;
+			children = (
+				4BE311C51BC7513600F7CCD2 /* ManualDepositViewController.swift */,
+				4BFD84061BC77E4200A34355 /* KeyPadViewController.swift */,
+				4BFD84081BC78BA300A34355 /* PreFilledViewController.swift */,
+				4BE2CEF01BC7920100863D98 /* IconCell.swift */,
+				4BACF2871BC898CC005A9A56 /* ManualDepositTurtleView.swift */,
+				4B566C911CA69A84007F16BD /* DepositViewController.swift */,
+			);
+			name = ManualDeposit;
+			sourceTree = "<group>";
+		};
+		4BE311C41BC7505900F7CCD2 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				4BF80E251BAE6F32004E2D5F /* UIImageExtension.swift */,
+				4B261AE11EEA57190095D589 /* DoubleExtension.swift */,
+				4BA283891E7780090071B84E /* DateExtension.swift */,
+				4BAEC5091BB50111004B59DD /* UIColorExtension.swift */,
+				4BAEC50B1BB508DB004B59DD /* TopAlignedLabel.swift */,
+				4B36047F1BCB28B4003B9F56 /* CountingLabel.swift */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		C531B85F14B0D52FA4BE19C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				829B9DC305B9A36D7986AF91 /* Pods-FitVing.debug.xcconfig */,
+				196264AF725378314768884A /* Pods-FitVing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B7851DE1BA51CA9003DFABB /* FitVing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7851F11BA51CA9003DFABB /* Build configuration list for PBXNativeTarget "FitVing" */;
+			buildPhases = (
+				2ECD37C4CCC209639002455F /* [CP] Check Pods Manifest.lock */,
+				4B7851DB1BA51CA9003DFABB /* Sources */,
+				4B7851DC1BA51CA9003DFABB /* Frameworks */,
+				4B7851DD1BA51CA9003DFABB /* Resources */,
+				4B1FBD631BB5A15A00AFCC53 /* ShellScript */,
+				FDF35668DC00B218F39EEBEC /* [CP] Embed Pods Frameworks */,
+				B9CE2E4A68D90A3D8353CE0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitVing;
+			productName = FitVing;
+			productReference = 4B7851DF1BA51CA9003DFABB /* FitVing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B7851D71BA51CA9003DFABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "SoBene, LLC";
+				TargetAttributes = {
+					4B7851DE1BA51CA9003DFABB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ECNJ62798V;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4B7851DA1BA51CA9003DFABB /* Build configuration list for PBXProject "FitVing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 4B7851D61BA51CA9003DFABB;
+			productRefGroup = 4B7851E01BA51CA9003DFABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B7851DE1BA51CA9003DFABB /* FitVing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B7851DD1BA51CA9003DFABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCBC7171EAD8B93009FED5F /* TortoiseIntro.mov in Resources */,
+				4B972E8A1E5F0C6C00F2C3BB /* Terms.pdf in Resources */,
+				4B4E4D621EBD5FD2003E74E7 /* ONLINETERMSOFUSE.pdf in Resources */,
+				4B71AC891C8511EE00BACBE3 /* FriendsViewCell.xib in Resources */,
+				4B03B3ED1DC6CEBB003F50C0 /* Localizable.strings in Resources */,
+				4B7851EA1BA51CA9003DFABB /* Assets.xcassets in Resources */,
+				4B7851E81BA51CA9003DFABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ECD37C4CCC209639002455F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B1FBD631BB5A15A00AFCC53 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 40b79e05c66db8ad9648d8472dcdb7f7f0682f7a 5cc1d45f5c389578c46ea3a1d29522fb2eae9368663c9d5880181a0b2d635ef0";
+		};
+		B9CE2E4A68D90A3D8353CE0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitVing/Pods-FitVing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF35668DC00B218F39EEBEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitVing/Pods-FitVing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B7851DB1BA51CA9003DFABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B857CE51E5C6DDC002D699C /* BankIDRegisterViewController.swift in Sources */,
+				4B68D3C21BC2384D00AFE4E8 /* FriendsView.swift in Sources */,
+				4BAEC50A1BB50111004B59DD /* UIColorExtension.swift in Sources */,
+				4BFD84091BC78BA300A34355 /* PreFilledViewController.swift in Sources */,
+				4BFD84071BC77E4200A34355 /* KeyPadViewController.swift in Sources */,
+				4B29BBD81CC0AEB6003B8771 /* HelpViewController.swift in Sources */,
+				4B2A8DBE1BA562B500F25F49 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				4B6268431C86769500D802CF /* StepTargetViewController.swift in Sources */,
+				4BE311C61BC7513600F7CCD2 /* ManualDepositViewController.swift in Sources */,
+				4BDA6C961BC49F6E00518DA3 /* WeeklyStepsView.swift in Sources */,
+				4B2A8DBD1BA562B500F25F49 /* KYDrawerController.swift in Sources */,
+				4BEE565F1E5A78D000194053 /* SignupViewController.swift in Sources */,
+				4B4170131DF67352008425E5 /* PrivacyPolicyViewController.swift in Sources */,
+				4B2803BC1E5B05FD007AA4DD /* CreateAccountStep1ViewController.swift in Sources */,
+				4B2A8DBF1BA562B500F25F49 /* KYEmbedMainControllerSegue.swift in Sources */,
+				4B84492F1EC9583B003FE787 /* BankAccountViewController.swift in Sources */,
+				4B9889741E679F5E008B282F /* DailyDepositInformationViewController.swift in Sources */,
+				4B237C121C8FC6FD001D4296 /* ViewController1.swift in Sources */,
+				4B2803C21E5B1ECC007AA4DD /* DailyStepTargetViewController.swift in Sources */,
+				4BC8C1741CBF6EAA00494E8C /* SyncWearableDevicesViewController.swift in Sources */,
+				4BED88251BB3AF32004460E9 /* HealthManager.swift in Sources */,
+				4B1B9E841E4061D700BFA02B /* IntroViewController.swift in Sources */,
+				4B29BBDB1CC0B00B003B8771 /* HelpViewController+UITableView.swift in Sources */,
+				4B1254F21DD298730090CB2B /* TransferInputAmountViewController.swift in Sources */,
+				4B6CC8591CBC94B100C1F78E /* LineChart.swift in Sources */,
+				4B3604801BCB28B4003B9F56 /* CountingLabel.swift in Sources */,
+				4B8C93691E6A4A3300B5FB65 /* ContactViewController.swift in Sources */,
+				4B515A7E1BC149ED0007E9CE /* FriendsButton.swift in Sources */,
+				4BE2777C1DF66A3B00F62BC6 /* AboutTortoiseViewController.swift in Sources */,
+				4B1FBE741E5B405600773917 /* BankListViewController.swift in Sources */,
+				4BACF2881BC898CC005A9A56 /* ManualDepositTurtleView.swift in Sources */,
+				4B6CC8571CBC84B200C1F78E /* SegmentView.swift in Sources */,
+				4B3FC6171E76416200CD4EAA /* Models.swift in Sources */,
+				4BAEC50C1BB508DB004B59DD /* TopAlignedLabel.swift in Sources */,
+				4BAEC5081BB4FF26004B59DD /* TurtleView.swift in Sources */,
+				4B6316261ED68C44001523CC /* TotalSummaryView.swift in Sources */,
+				4B261AE21EEA57190095D589 /* DoubleExtension.swift in Sources */,
+				4BA2838A1E7780090071B84E /* DateExtension.swift in Sources */,
+				4B515A801BC150C00007E9CE /* WeeklyStepsButton.swift in Sources */,
+				4B7851E51BA51CA9003DFABB /* HomeViewController.swift in Sources */,
+				4BC74DCA1E40357D00640EFE /* VideoIntroViewController.swift in Sources */,
+				4B15849E1DD1AA5E006DBA65 /* MyAccountViewController.swift in Sources */,
+				4BDB126B1ECAD1900036D3E5 /* Alertable.swift in Sources */,
+				4B7B50B41BA52FE400EDD478 /* MenuViewController.swift in Sources */,
+				4BCC35CA1CA96CD200D2EF13 /* SettingsViewController.swift in Sources */,
+				4B566C921CA69A84007F16BD /* DepositViewController.swift in Sources */,
+				4B9193C21DD311B2001E7404 /* TransferToBankViewController.swift in Sources */,
+				4BB1973D1E5B31E6004118EF /* CreateAccountStep3ViewController.swift in Sources */,
+				4B2803C01E5B1BAA007AA4DD /* CreateAccountStep2ViewController.swift in Sources */,
+				4B2A91C41BF8A93B00097A64 /* FitVing.swift in Sources */,
+				4BE2CEF11BC7920100863D98 /* IconCell.swift in Sources */,
+				4BF80E261BAE6F32004E2D5F /* UIImageExtension.swift in Sources */,
+				4B8C936B1E6A4B5100B5FB65 /* UserAgreementViewController.swift in Sources */,
+				4B68D3C41BC23A4600AFE4E8 /* FriendsTurtleView.swift in Sources */,
+				4B7B8CA61BA59E73007A1637 /* HistoryViewController.swift in Sources */,
+				4BCC35CC1CA96E8900D2EF13 /* SettingsViewController+UITableView.swift in Sources */,
+				4BEC5CEA1CB8A9D00097DD24 /* InviteFriendsViewController.swift in Sources */,
+				4B261AE01EEA44320095D589 /* FitVing+History.swift in Sources */,
+				4BB1973B1E5B2FEE004118EF /* DailyDepositViewController.swift in Sources */,
+				4BF3AEF91E5AAC790016E8ED /* CustomerAgreementViewController.swift in Sources */,
+				4BF3AEF71E5A91170016E8ED /* SigninViewController.swift in Sources */,
+				4BC832DE1EE9201300142319 /* TodaySummaryView.swift in Sources */,
+				4B7851E31BA51CA9003DFABB /* AppDelegate.swift in Sources */,
+				4BFBF7DA1BDE12800038CFCC /* InformationViewController.swift in Sources */,
+				4B2803BE1E5B07BC007AA4DD /* BasicInfoViewController.swift in Sources */,
+				4B71AC881C8511EE00BACBE3 /* FriendsViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B03B3EF1DC6CEBB003F50C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B03B3EE1DC6CEBB003F50C0 /* Base */,
+				4B03B3F01DC6CEE9003F50C0 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4B7851E61BA51CA9003DFABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B7851E71BA51CA9003DFABB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B7851EF1BA51CA9003DFABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B7851F01BA51CA9003DFABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B7851F21BA51CA9003DFABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829B9DC305B9A36D7986AF91 /* Pods-FitVing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FitVing/FitVing.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ECNJ62798V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FitVing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D COCOAPODS\" \"-DDEBUG\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreators.Tortoise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fbe766e3-246b-4230-b2c0-5e4febc0a370";
+				PROVISIONING_PROFILE_SPECIFIER = TortoiseDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitVing/FitVing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B7851F31BA51CA9003DFABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196264AF725378314768884A /* Pods-FitVing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FitVing/FitVing.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = ECNJ62798V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FitVing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreators.Tortoise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1fb333f5-50db-4827-bb25-99c7f82e6acf";
+				PROVISIONING_PROFILE_SPECIFIER = Tortoise;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitVing/FitVing-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B7851DA1BA51CA9003DFABB /* Build configuration list for PBXProject "FitVing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7851EF1BA51CA9003DFABB /* Debug */,
+				4B7851F01BA51CA9003DFABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B7851F11BA51CA9003DFABB /* Build configuration list for PBXNativeTarget "FitVing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7851F21BA51CA9003DFABB /* Debug */,
+				4B7851F31BA51CA9003DFABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B7851D71BA51CA9003DFABB /* Project object */;
+}
