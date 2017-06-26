@@ -84,7 +84,6 @@
 		4BEE565F1E5A78D000194053 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE565E1E5A78D000194053 /* SignupViewController.swift */; };
 		4BF3AEF71E5A91170016E8ED /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3AEF61E5A91170016E8ED /* SigninViewController.swift */; };
 		4BF3AEF91E5AAC790016E8ED /* CustomerAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3AEF81E5AAC790016E8ED /* CustomerAgreementViewController.swift */; };
-		4BF80E261BAE6F32004E2D5F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF80E251BAE6F32004E2D5F /* UIImageExtension.swift */; };
 		4BFBF7DA1BDE12800038CFCC /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFBF7D91BDE12800038CFCC /* InformationViewController.swift */; };
 		4BFD84071BC77E4200A34355 /* KeyPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD84061BC77E4200A34355 /* KeyPadViewController.swift */; };
 		4BFD84091BC78BA300A34355 /* PreFilledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD84081BC78BA300A34355 /* PreFilledViewController.swift */; };
@@ -175,7 +174,6 @@
 		4BEE565E1E5A78D000194053 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		4BF3AEF61E5A91170016E8ED /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		4BF3AEF81E5AAC790016E8ED /* CustomerAgreementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerAgreementViewController.swift; sourceTree = "<group>"; };
-		4BF80E251BAE6F32004E2D5F /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		4BFBF7D91BDE12800038CFCC /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		4BFD84061BC77E4200A34355 /* KeyPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPadViewController.swift; sourceTree = "<group>"; };
 		4BFD84081BC78BA300A34355 /* PreFilledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreFilledViewController.swift; sourceTree = "<group>"; };
@@ -392,7 +390,6 @@
 		4BE311C41BC7505900F7CCD2 /* Customized */ = {
 			isa = PBXGroup;
 			children = (
-				4BF80E251BAE6F32004E2D5F /* UIImageExtension.swift */,
 				4B261AE11EEA57190095D589 /* DoubleExtension.swift */,
 				4BA283891E7780090071B84E /* DateExtension.swift */,
 				4BAEC5091BB50111004B59DD /* UIColorExtension.swift */,
@@ -615,7 +612,6 @@
 				4B2803C01E5B1BAA007AA4DD /* CreateAccountStep2ViewController.swift in Sources */,
 				4B2A91C41BF8A93B00097A64 /* FitVing.swift in Sources */,
 				4BE2CEF11BC7920100863D98 /* IconCell.swift in Sources */,
-				4BF80E261BAE6F32004E2D5F /* UIImageExtension.swift in Sources */,
 				4B8C936B1E6A4B5100B5FB65 /* UserAgreementViewController.swift in Sources */,
 				4B68D3C41BC23A4600AFE4E8 /* FriendsTurtleView.swift in Sources */,
 				4B7B8CA61BA59E73007A1637 /* HistoryViewController.swift in Sources */,
